@@ -1,0 +1,42 @@
+.our-team-section {
+    [class*='col-']:not(:last-child) {
+        @media (max-width:767px) {
+            margin-bottom: 40px;
+        }
+    }
+
+    .single-team {
+
+        .team-img {
+            height: 400px;
+            margin-bottom: 24px;
+
+            @media (max-width:767px) {
+                height: 73vw;
+                margin-bottom: 12px;
+            }
+        }
+
+        .team-description {
+            @media (max-width:767px) {
+                h4 {
+                    font-size: 20px;
+                    margin-bottom: 14px;
+                }
+            }
+
+            .designation {
+                &:before {
+                    content: "|";
+                    margin: 0 2px;
+                }
+            }
+
+            ul {
+                li {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

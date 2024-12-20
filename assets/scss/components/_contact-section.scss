@@ -1,0 +1,221 @@
+.contact-section {
+    @media (max-width: 991px) {
+        [class*="col-"] {
+            max-width: 100%;
+        }
+    }
+
+    .bg-img {
+        display: none;
+
+        @media (max-width:991px) {
+            display: block;
+            z-index: -1;
+        }
+
+        &::after {
+            background-color: rgb(56 56 56 / 70%);
+        }
+    }
+
+    h1 {
+        margin-bottom: 18px;
+
+        @media (max-width:991px) {
+            text-align: center;
+            margin-bottom: 56px;
+            color: $white;
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+    .contact-left-wrapper {
+
+        @media (max-width:991px) {
+            margin-top: 0;
+            text-align: center;
+            color: $white;            
+            padding: 100px 0 55px 0;
+        }
+
+        .contact-title {
+            margin-bottom: 18.31px;
+
+            p {
+                max-width: 466px;
+            }
+
+            @media (max-width:991px) {
+                display: none;
+            }
+        }
+
+        .location-wrapper {
+            margin-bottom: 48px;
+
+            @media (max-width:991px) {
+                margin-bottom: 31.31px;
+            }
+
+            ul {
+                li {
+                    &:not(:last-child) {
+                        margin-bottom: 31.31px;
+
+                        @media (max-width:991px) {
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    &:not(:first-child) {
+                        @media (max-width:991px) {
+                            margin-bottom: 31.31px;
+                        }
+                    }
+
+                    @media (max-width:991px) {
+                        &:first-child {
+                            order: 3;
+                        }
+
+                        p {
+                            font-size: 15px;
+                        }
+                    }
+
+                    h3 {
+                        margin-bottom: 28.2px;
+                        letter-spacing: 0;
+
+                        @media (max-width:991px) {
+                            span {
+                                display: none;
+                            }
+
+                            color: $white;
+                        }
+
+                    }
+
+                    p {
+                        font-weight: 400;
+                    }
+
+                    .inner-list {
+                        li {
+                            &:not(:last-child) {
+                                margin-bottom: 0px;
+                            }
+
+                            margin-bottom: 0;
+
+                            @media (max-width:991px) {
+                                a {
+                                    font-size: 15px;
+                                }
+                            }
+
+
+                            a {
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .career-section {
+            display: none;
+            margin-bottom: 40px;
+
+            @media (max-width:991px) {
+                border-top: none;
+                display: block;
+
+                h3 {
+                    color: $white;
+                }
+            }
+
+            p,
+            a {
+                font-size: 15px;
+            }
+        }
+
+        .social {
+            ul {
+                @media (max-width:991px) {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+.contact-form-wrapper {
+
+    input,
+    textarea {
+        width: 100%;
+        border-bottom: 1px solid $primary;
+        margin-bottom: 50px;
+        height: 38px;
+        font-size: 18px;
+        font-weight: 400;
+        color: $primary;
+        font-family: $body-font;
+        text-transform: capitalize;
+
+        @media (max-width:991px) {
+            margin-bottom: 30px;
+            font-size: 15px;
+        }
+
+        &::placeholder {
+            font-size: 18px;
+            font-weight: 400;
+            color: $primary;
+            text-transform: capitalize;
+
+            @media (max-width:991px) {
+                font-size: 15px;
+            }
+        }
+
+        &[type=number] {
+            -moz-appearance: textfield;
+
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+
+        }
+
+    }
+
+    textarea {
+        margin-bottom: 46px;
+        height: 188px;
+        resize: none;
+
+        @media (max-width:991px) {
+            margin-bottom: 30px;
+            height: 120px;
+        }
+    }
+
+    .submit-btn {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        cursor: pointer;
+
+    }
+    @media (max-width:991px) {
+        margin-top: 30px;
+    }
+}

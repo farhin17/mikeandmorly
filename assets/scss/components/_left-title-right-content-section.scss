@@ -1,0 +1,10 @@
+.left-title-right-content-section{
+    .title-wrapper{
+        h4{
+            margin-bottom: 0;
+            @media (max-width:767px) {
+                margin-bottom: 22px;
+            }
+        }
+    }
+}

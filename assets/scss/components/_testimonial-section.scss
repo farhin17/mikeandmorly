@@ -1,0 +1,19 @@
+.testimonial-section{
+    .testimonail-inner{
+        max-width: 739px;
+        margin: 0 auto;
+        @media (max-width:767px) {
+            padding: 0 20px;
+        }
+        .testimonail-single-slider{
+            text-align: center;
+            .perosn-name{
+                font-weight: 500;
+                &:before,&:after{
+                    content: "-";
+                }
+                
+            }
+        }
+    }
+}

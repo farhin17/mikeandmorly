@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('Inter18pt-Light.eot');
+    src: url('Inter18pt-Light.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-Light.woff2') format('woff2'),
+        url('Inter18pt-Light.woff') format('woff'),
+        url('Inter18pt-Light.ttf') format('truetype'),
+        url('Inter18pt-Light.svg#Inter18pt-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('Inter18pt-Bold.eot');
+    src: url('Inter18pt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-Bold.woff2') format('woff2'),
+        url('Inter18pt-Bold.woff') format('woff'),
+        url('Inter18pt-Bold.ttf') format('truetype'),
+        url('Inter18pt-Bold.svg#Inter18pt-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('Inter18pt-Medium.eot');
+    src: url('Inter18pt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-Medium.woff2') format('woff2'),
+        url('Inter18pt-Medium.woff') format('woff'),
+        url('Inter18pt-Medium.ttf') format('truetype'),
+        url('Inter18pt-Medium.svg#Inter18pt-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('Inter18pt-Regular.eot');
+    src: url('Inter18pt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-Regular.woff2') format('woff2'),
+        url('Inter18pt-Regular.woff') format('woff'),
+        url('Inter18pt-Regular.ttf') format('truetype'),
+        url('Inter18pt-Regular.svg#Inter18pt-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('Inter18pt-SemiBold.eot');
+    src: url('Inter18pt-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Inter18pt-SemiBold.woff2') format('woff2'),
+        url('Inter18pt-SemiBold.woff') format('woff'),
+        url('Inter18pt-SemiBold.ttf') format('truetype'),
+        url('Inter18pt-SemiBold.svg#Inter18pt-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Salina-Trial Book';
+    src: url('Salina-Trial-Book.eot');
+    src: url('Salina-Trial-Book.eot?#iefix') format('embedded-opentype'),
+        url('Salina-Trial-Book.woff2') format('woff2'),
+        url('Salina-Trial-Book.woff') format('woff'),
+        url('Salina-Trial-Book.ttf') format('truetype'),
+        url('Salina-Trial-Book.svg#Salina-Trial-Book') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

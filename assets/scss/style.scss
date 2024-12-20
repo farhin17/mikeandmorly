@@ -1,0 +1,35 @@
+// Vendor
+@import '../scss/vendors/swiper-bundle.min.css';
+@import '../fonts/stylesheet.css';
+
+// Utils
+@import '../scss/utils/animation';
+@import '../scss/utils/var';
+@import '../scss/utils/typo';
+@import '../scss/utils/header';
+@import '../scss/utils/footer';
+
+
+// Home Page Section
+@import '../scss/components/home-banner-section';
+@import '../scss/components/background-img-with-heading';
+@import '../scss/components/our-service-section';
+@import '../scss/components/testimonial-section';
+@import '../scss/components/project-section';
+@import '../scss/components/pagination';
+@import '../scss/components/title-with-image-section';
+@import '../scss/components/project-detail-section';
+@import '../scss/components/left-title-right-content-section';
+@import '../scss/components/only-image-section';
+@import '../scss/components/only-title-section';
+@import '../scss/components/left-image-right-content-section';
+@import '../scss/components/project-detail-slider-section';
+@import '../scss/components/breadcrumbs-section';
+@import '../scss/components/contact-section';
+@import '../scss/components/career-section';
+@import '../scss/components/faq-section';
+@import '../scss/components/our-process-section';
+@import '../scss/components/our-team-section';
+@import '../scss/components/error-thankyou-section';
+
+// Inner Page Section

@@ -1,0 +1,82 @@
+.banner-section {
+    height: 100vh;
+    overflow: hidden;
+
+    .scroll-used-section {
+        height: 100%;
+        position: relative;
+    }
+
+    @media (max-width:767px) {
+        height: 500px;
+    }
+
+    .logo-banner {
+        height: 100%;
+
+        .top-content {
+            height: 100%;
+
+            h1 {
+                margin-bottom: 0;
+            }
+
+            .logo {
+                max-width: 380px;
+                z-index: 2;
+
+                @media (max-width:991px) {
+                    max-width: 250px;
+                }
+
+                @media (max-width:767px) {
+                    max-width: 166px;
+                    height: 97px;
+                }
+            }
+
+            .arrow {
+                position: absolute;
+                bottom: 40px;
+                animation: jumpInfinite 2.5s ease-in-out infinite;
+                z-index: 2;
+
+                @media (max-width:767px) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .social-logo {
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        width: 100%;
+        z-index: 1;
+
+        @media (max-width:767px) {
+            display: none;
+        }
+
+        a {
+            color: $white;
+            font-size: 12px;
+            font-weight: 500;
+
+            &:hover {
+                &::after {
+                    filter: brightness(0) saturate(100%) invert(94%) sepia(0%) saturate(7487%) hue-rotate(313deg) brightness(115%) contrast(99%);
+                }
+            }
+
+            &:first-child {
+                transform: rotate(-90deg);
+            }
+
+            &:last-child {
+                transform: rotate(90deg);
+            }
+        }
+    }
+}

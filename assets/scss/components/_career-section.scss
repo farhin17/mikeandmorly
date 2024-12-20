@@ -1,0 +1,26 @@
+.career-section{ 
+    border-top: 1px solid $primary;
+    @media (max-width:991px) {
+        display: none;
+    }
+    .career-wrapper{
+        h3{
+            margin-bottom: 31.2px;
+            letter-spacing: 0;
+        }
+        .mail-wrapper{
+            max-width: 647px;
+            margin: auto;
+            p{
+                font-weight: 400;
+                margin-bottom: 34px;
+                @media (max-width:991px) {
+                    margin-bottom: 20px;
+                }
+            }
+            a{
+                font-weight: 500;
+            }
+        }
+    }
+}

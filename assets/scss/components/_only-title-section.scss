@@ -1,0 +1,14 @@
+.only-title-section{
+    .only-title-wrapper{
+        max-width: 803px;
+        h4{
+            margin-bottom: 37px;
+            @media (max-width:1199px) {
+                margin-bottom: 30px;
+            }
+            @media (max-width:991px) {
+                margin-bottom: 22px;
+            }
+        }
+    }
+}

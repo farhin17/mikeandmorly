@@ -1,0 +1,114 @@
+.project-section {
+    @media (max-width:767px) {
+        [class*="col-"] {
+            max-width: 50%;
+
+            &:nth-of-type(odd) {
+                padding-right: 8px;
+            }
+
+            &:nth-of-type(even) {
+                padding-left: 8px;
+            }
+        }
+    }
+
+    .project-wrapper {
+        margin-bottom: 40px;
+        height: 400px;
+        width: 100%;
+
+        @media (max-width:1319px) {
+            height: 30.3vw;
+        }
+
+        @media (max-width:767px) {
+            height: 45.3vw;
+            margin-bottom: 16px;
+        }
+
+        .hover-wrapper {
+            width: 100%;
+            height: 100%;
+            inset: 0;
+            visibility: hidden;
+            opacity: 0;
+            transition: .5s ease all;
+            padding: 61px 44px;
+            @media (max-width:767px) {
+              padding: 41px 49px;
+            }
+
+            h3 {
+                margin-bottom: 10px;
+                letter-spacing: 0;
+
+                @media (max-width:575px) {
+                    font-size: 12.46px;
+                    margin-bottom: 16.8px;
+                }
+            }
+            img{
+                margin-bottom: 15px;
+            }
+
+            p {
+                margin-bottom: 15px;
+
+                @media (max-width:575px) {
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+
+            span {
+                text-transform: capitalize;
+
+                @media (max-width:575px) {
+                    font-size: 12px;
+                }
+            }
+
+        }
+
+        &:hover {
+            opacity: 1;
+
+            .hover-wrapper {
+                visibility: visible;
+                opacity: 1;
+
+            }
+        }
+    }
+
+    &.article-section {
+        .project-wrapper {
+            @media (max-width:575px) {
+                height: 95.5vw;
+            }
+            .hover-wrapper {
+                justify-content: space-between;
+
+                h3 {
+                    @media (max-width:575px) {
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+
+        @media (max-width:575px) {
+            [class*="col-"] {
+                max-width: 100%;
+                &:nth-of-type(odd) {
+                    padding-right: 16px;
+                }
+    
+                &:nth-of-type(even) {
+                    padding-left: 16px;
+                }
+            }
+        }
+    }
+}
